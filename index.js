@@ -1,7 +1,7 @@
 import { Sequelize, DataTypes } from 'sequelize';
 
-// Configuración de la conexión a la base de datos //aun no la creo jajajaja
-const sequelize = new Sequelize('database', 'username', 'password', {
+// Configuración de la conexión a la base de datos //
+const sequelize = new Sequelize('individual5', 'postgres', 'pipe1234', {
   host: 'localhost',
   dialect: 'postgres'
 });
